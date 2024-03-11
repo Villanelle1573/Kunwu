@@ -1,0 +1,33 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	Origin: {
+		DisplayName: 蕴灵剑
+		Tooltip: 合成表是凑数的
+	}
+
+	Chacoal: {
+		DisplayName: 木炭
+		Tooltip: ""
+	}
+
+	Canger: {
+		DisplayName: 苍耳
+		Tooltip: 10%概率不消耗弹药
+	}
+
+	Redgoldingot: {
+		DisplayName: 赤金锭
+		Tooltip: ""
+	}
+
+	Redgoldfurnace: {
+		DisplayName: 赤金冶炼炉
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	Bluejianqi.DisplayName: Bluejianqi
+	Cangerbullet.DisplayName: Cangerbullet
+}
