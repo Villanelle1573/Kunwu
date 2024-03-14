@@ -15,7 +15,7 @@ namespace kunwu.Items.Weapons
 			Item.damage = 225;
 			Item.DamageType = DamageClass.Melee;
 			Item.crit = 16;
-			Item.width = 40;
+			Item.width = 100;
 			Item.height = 40;
 			Item.useTime = 20;
 			Item.useAnimation = 20;

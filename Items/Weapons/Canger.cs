@@ -1,10 +1,7 @@
-﻿using Terraria;
+﻿using Microsoft.Xna.Framework;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.Localization;
-using Terraria.DataStructures;
-using Microsoft.Xna.Framework;
-using kunwu.Projectiles;
 
 namespace kunwu.Items.Weapons
 {
@@ -12,20 +9,23 @@ namespace kunwu.Items.Weapons
     {
         public override void SetDefaults()
         {
-            Item.damage = 18;
-            Item.knockBack = 3f;
+            Item.damage = 16;
+            Item.knockBack = 4;
             Item.crit = 16;
             Item.DamageType = DamageClass.Ranged;
+            Item.width = 40;
+            Item.height = 40;
+            Item.shoot = ProjectileID.Bullet;
+            Item.shootSpeed = 11f;
+            Item.scale = 1.6f;
             Item.useStyle = ItemUseStyleID.Shoot;
             Item.useAmmo = AmmoID.Bullet;
             Item.noMelee = true;
             Item.autoReuse = true;
             Item.rare = ItemRarityID.Green;
             Item.UseSound = SoundID.Item11;
-            Item.useTime = 5;
+            Item.useTime = 15;
             Item.useAnimation = 5;
-            Item.shoot = ProjectileID.Bullet;
-            Item.shootSpeed = 24f;
         }
         public override bool CanConsumeAmmo(Item ammo, Player player)
         {
@@ -41,11 +41,12 @@ namespace kunwu.Items.Weapons
         }
         public override void AddRecipes()
         {
-            Recipe recipe = CreateRecipe();
-            recipe.AddRecipeGroup(RecipeGroupID.Wood, 20);
-            recipe.AddIngredient(ItemID.Stinger, 5);
-            recipe.AddTile(TileID.Benches);
-            recipe.Register();
+            CreateRecipe()
+                .AddRecipeGroup(RecipeGroupID.Wood, 20)
+                .AddIngredient(ItemID.Cactus, 12)
+                .AddIngredient(ItemID.Stinger, 8)
+                .AddTile(TileID.Anvils)
+                .Register();
         }
     }
 }

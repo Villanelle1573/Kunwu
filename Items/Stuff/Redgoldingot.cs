@@ -26,11 +26,17 @@ namespace kunwu.Items.Stuff
         }
         public override void AddRecipes()
         {
-            Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.Hellstone, 2);
-            recipe.AddIngredient(ItemID.GoldBar);
-            recipe.AddTile(TileID.Furnaces);
-            recipe.Register();
+            CreateRecipe()
+                .AddIngredient(ItemID.Hellstone, 2)
+                .AddIngredient(ItemID.GoldBar)
+                .AddTile(TileID.Furnaces)
+                .Register();
+
+            CreateRecipe()
+                .AddIngredient(ItemID.Hellstone, 2)
+                .AddIngredient(ItemID.PlatinumBar)
+                .AddTile(TileID.Furnaces)
+                .Register();
         }
     }
 }
