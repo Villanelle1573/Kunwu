@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Localization;
 
-namespace kunwu.Items.Stuff
+namespace kunwu.Items.Placeable
 {
     public class Redgoldingot : ModItem
     {

@@ -26,7 +26,7 @@ namespace kunwu.Tiles
             MineResist = 2f;
             MinPick = 65;
 
-            ItemDrops = ModContent.ItemType<Items.Stuff.Redgoldingot>();
+            ItemDrops = ModContent.ItemType<Items.Placeable.Redgoldingot>();
 
             TileObjectData.newTile.CopyFrom(TileObjectData.Style1x1);
             TileObjectData.newTile.StyleHorizontal = true;

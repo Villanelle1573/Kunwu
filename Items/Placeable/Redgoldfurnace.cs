@@ -7,7 +7,7 @@ using Terraria.ID;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace kunwu.Items.Stuff
+namespace kunwu.Items.Placeable
 {
     public class Redgoldfurnace : ModItem
     {

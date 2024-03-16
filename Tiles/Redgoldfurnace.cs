@@ -24,7 +24,7 @@ namespace kunwu.Tiles
             MineResist = 1f;
             MinPick = 65;
 
-            ItemDrops = ModContent.ItemType<Items.Stuff.Redgoldfurnace>();
+            ItemDrops = ModContent.ItemType<Items.Placeable.Redgoldfurnace>();
 
             TileObjectData.newTile.CopyFrom(TileObjectData.Style3x3);
             TileObjectData.newTile.StyleHorizontal = true;

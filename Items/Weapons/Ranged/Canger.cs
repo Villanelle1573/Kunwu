@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace kunwu.Items.Weapons
+namespace kunwu.Items.Weapons.Ranged
 {
     public class Canger : ModItem
     {

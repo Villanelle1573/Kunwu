@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 using Terraria.Localization;
 using kunwu.Projectiles;
 
-namespace kunwu.Items.Weapons
+namespace kunwu.Items.Weapons.Melee
 {
 	public class Origin : ModItem
 	{
