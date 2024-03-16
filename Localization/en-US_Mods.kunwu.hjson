@@ -6,11 +6,6 @@ Items: {
 		Tooltip: 合成表是凑数的
 	}
 
-	Chacoal: {
-		DisplayName: 木炭
-		Tooltip: ""
-	}
-
 	Canger: {
 		DisplayName: 苍耳
 		Tooltip: 10%概率不消耗弹药
@@ -25,9 +20,11 @@ Items: {
 		DisplayName: 赤金冶炼炉
 		Tooltip: ""
 	}
+
+	Flyingserpentfeather: {
+		DisplayName: 腾蛇灵羽
+		Tooltip: ""畏怖流转其上""
+	}
 }
 
-Projectiles: {
-	Bluejianqi.DisplayName: Bluejianqi
-	Cangerbullet.DisplayName: Cangerbullet
-}
+Projectiles.Bluejianqi.DisplayName: Bluejianqi
