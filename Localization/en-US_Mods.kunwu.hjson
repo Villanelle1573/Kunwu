@@ -25,6 +25,33 @@ Items: {
 		DisplayName: 腾蛇灵羽
 		Tooltip: “畏怖流转其上”
 	}
+
+	RedgoldManaBreastplate: {
+		DisplayName: 熔金法袍
+		Tooltip:
+			'''
+			魔法暴击率增加4%
+			最大魔力值增加80
+			'''
+	}
+
+	RedgoldManaHelmet: {
+		DisplayName: 熔金法帽
+		Tooltip:
+			'''
+			魔法伤害增加6%
+			魔法暴击率增加6%
+			'''
+	}
+
+	RedgoldManaLeggings: {
+		DisplayName: 熔金法靴
+		Tooltip:
+			'''
+			魔法伤害增加6%
+			移动速度提高8%
+			'''
+	}
 }
 
 Projectiles.Bluejianqi.DisplayName: Bluejianqi
