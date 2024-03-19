@@ -1,4 +1,5 @@
-﻿using kunwu.Items.Placeable;
+﻿using kunwu.Tiles.Furniture.CraftingStations;
+using kunwu.Items.Placeable;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -18,7 +19,7 @@ namespace kunwu.Items.Armors.RedgoldMana
         }
         public override void UpdateEquip(Player player)
         {
-            player.statManaMax2 = 280;
+            player.statManaMax2 += 80;
             player.GetCritChance(DamageClass.Magic) += 4f;
         }
         public override void AddRecipes()
@@ -26,7 +27,7 @@ namespace kunwu.Items.Armors.RedgoldMana
             CreateRecipe()
                 .AddIngredient<Redgoldingot>(20)
                 .AddIngredient(ItemID.Silk, 8)
-                .AddTile<Tiles.Redgoldfurnace>()
+                .AddTile<Tiles.Furniture.CraftingStations.Redgoldfurnace>()
                 .Register();
         }
     }

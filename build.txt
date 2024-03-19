@@ -1,3 +1,3 @@
 displayName = 昆吾
 author = Villanelle
-version = 0.0.0.3
+version = 0.0.0.4

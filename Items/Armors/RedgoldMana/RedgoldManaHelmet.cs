@@ -32,12 +32,16 @@ namespace kunwu.Items.Armors.RedgoldMana
             player.manaCost -= 0.12f;
             player.buffImmune[BuffID.OnFire] = true;
         }
+        public override void ArmorSetShadows(Player player)
+        {
+            player.armorEffectDrawShadow = true;
+        }
         public override void AddRecipes()
         {
             CreateRecipe()
                 .AddIngredient<Redgoldingot>(8)
                 .AddIngredient(ItemID.Silk, 3)
-                .AddTile<Tiles.Redgoldfurnace>()
+                .AddTile<Tiles.Furniture.CraftingStations.Redgoldfurnace>()
                 .Register();
         }
     }

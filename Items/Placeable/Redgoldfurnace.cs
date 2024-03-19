@@ -25,7 +25,7 @@ namespace kunwu.Items.Placeable
             Item.consumable = true;
             Item.maxStack = 9999;
             Item.rare = ItemRarityID.Green;
-            Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Redgoldfurnace>());
+            Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Furniture.CraftingStations.Redgoldfurnace>());
             Item.placeStyle = 0;
         }
         public override void AddRecipes()
