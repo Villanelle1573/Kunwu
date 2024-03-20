@@ -39,7 +39,7 @@ namespace kunwu.Items.Armors.RedgoldMana
         public override void AddRecipes()
         {
             CreateRecipe()
-                .AddIngredient<Redgoldingot>(8)
+                .AddIngredient<RedgoldBar>(8)
                 .AddIngredient(ItemID.Silk, 3)
                 .AddTile<Tiles.Furniture.CraftingStations.Redgoldfurnace>()
                 .Register();

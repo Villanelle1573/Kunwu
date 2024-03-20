@@ -1,5 +1,4 @@
-﻿using kunwu.Tiles.Furniture.CraftingStations;
-using kunwu.Items.Placeable;
+﻿using kunwu.Items.Placeable;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -25,7 +24,7 @@ namespace kunwu.Items.Armors.RedgoldMana
         public override void AddRecipes()
         {
             CreateRecipe()
-                .AddIngredient<Redgoldingot>(20)
+                .AddIngredient<RedgoldBar>(20)
                 .AddIngredient(ItemID.Silk, 8)
                 .AddTile<Tiles.Furniture.CraftingStations.Redgoldfurnace>()
                 .Register();

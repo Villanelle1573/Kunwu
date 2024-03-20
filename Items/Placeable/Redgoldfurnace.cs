@@ -31,7 +31,7 @@ namespace kunwu.Items.Placeable
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ModContent.ItemType<Redgoldingot>(), 8);
+            recipe.AddIngredient(ModContent.ItemType<RedgoldBar>(), 8);
             recipe.AddIngredient(ItemID.Hellforge);
             recipe.AddTile(TileID.Furnaces);
             recipe.Register();

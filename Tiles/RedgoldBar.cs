@@ -7,7 +7,7 @@ using Terraria.ObjectData;
 
 namespace kunwu.Tiles
 {
-    public class Redgoldingot : ModTile
+    public class RedgoldBar : ModTile
     {
         public int ItemDrops { get; private set; }
 
@@ -26,7 +26,7 @@ namespace kunwu.Tiles
             MineResist = 2f;
             MinPick = 65;
 
-            ItemDrops = ModContent.ItemType<Items.Placeable.Redgoldingot>();
+            ItemDrops = ModContent.ItemType<Items.Placeable.RedgoldBar>();
 
             TileObjectData.newTile.CopyFrom(TileObjectData.Style1x1);
             TileObjectData.newTile.StyleHorizontal = true;

@@ -5,7 +5,7 @@ using Terraria.Localization;
 
 namespace kunwu.Items.Placeable
 {
-    public class Redgoldingot : ModItem
+    public class RedgoldBar : ModItem
     {
         public override void SetStaticDefaults()
         {
@@ -24,8 +24,7 @@ namespace kunwu.Items.Placeable
             Item.consumable = true;
             Item.maxStack = 9999;
             Item.rare = ItemRarityID.Green;
-            Item.createTile = ModContent.TileType<Tiles.Redgoldingot>();
-            // Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Redgoldingot>());
+            Item.createTile = ModContent.TileType<Tiles.RedgoldBar>();
             Item.placeStyle = 0;
         }
         public override void AddRecipes()
