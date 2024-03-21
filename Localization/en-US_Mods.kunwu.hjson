@@ -11,7 +11,7 @@ Items: {
 		Tooltip: 10%概率不消耗弹药
 	}
 
-	Redgoldingot: {
+	RedgoldBar: {
 		DisplayName: 赤金锭
 		Tooltip: ""
 	}
@@ -50,6 +50,15 @@ Items: {
 			'''
 			魔法伤害增加6%
 			移动速度提高8%
+			'''
+	}
+
+	TopazRing: {
+		DisplayName: 黄玉扳指
+		Tooltip: 
+			'''
+			远程暴击率增加6%
+			远程射速降低10%
 			'''
 	}
 }

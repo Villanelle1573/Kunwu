@@ -36,12 +36,12 @@ namespace kunwu.Items.Weapons.Melee
         }
 		public override void AddRecipes()
 		{
-			Recipe recipe = CreateRecipe();
-			recipe.AddRecipeGroup(RecipeGroupID.Wood, 10);
-			recipe.AddRecipeGroup(RecipeGroupID.IronBar, 8);
-			recipe.AddIngredient(ItemID.Diamond, 3);
-			recipe.AddTile(TileID.Anvils);
-			recipe.Register();
+			CreateRecipe()
+				.AddRecipeGroup(RecipeGroupID.Wood, 10)
+				.AddRecipeGroup(RecipeGroupID.IronBar, 8)
+				.AddIngredient(ItemID.Diamond, 3)
+				.AddTile(TileID.Anvils)
+				.Register();
 		}
     }
 }
