@@ -1,0 +1,48 @@
+Items: {
+	TopazRing: {
+		DisplayName: Topaz Ring
+		Tooltip: ""
+	}
+
+	RedgoldManaBreastplate: {
+		DisplayName: Redgold Mana Breastplate
+		Tooltip: ""
+	}
+
+	RedgoldManaHelmet: {
+		DisplayName: Redgold Mana Helmet
+		Tooltip: ""
+	}
+
+	RedgoldManaLeggings: {
+		DisplayName: Redgold Mana Leggings
+		Tooltip: ""
+	}
+
+	Flyingserpentfeather: {
+		DisplayName: Flyingserpentfeather
+		Tooltip: ""
+	}
+
+	RedgoldBar: {
+		DisplayName: Redgold Bar
+		Tooltip: ""
+	}
+
+	Redgoldfurnace: {
+		DisplayName: Redgoldfurnace
+		Tooltip: ""
+	}
+
+	Origin: {
+		DisplayName: Origin
+		Tooltip: ""
+	}
+
+	Canger: {
+		DisplayName: Canger
+		Tooltip: ""
+	}
+}
+
+Projectiles.Bluejianqi.DisplayName: Bluejianqi

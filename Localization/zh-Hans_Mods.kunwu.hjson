@@ -1,29 +1,11 @@
-# This file will automatically update with entries for new content after a build and reload
-
 Items: {
-	Origin: {
-		DisplayName: 蕴灵剑
-		Tooltip: 合成表是凑数的
-	}
-
-	Canger: {
-		DisplayName: 苍耳
-		Tooltip: 10%概率不消耗弹药
-	}
-
-	RedgoldBar: {
-		DisplayName: 赤金锭
-		Tooltip: ""
-	}
-
-	Redgoldfurnace: {
-		DisplayName: 赤金冶炼炉
-		Tooltip: ""
-	}
-
-	Flyingserpentfeather: {
-		DisplayName: 腾蛇灵羽
-		Tooltip: “畏怖流转其上”
+	TopazRing: {
+		DisplayName: 黄玉扳指
+		Tooltip:
+			'''
+			远程暴击率增加6%
+			远程射速降低10%
+			'''
 	}
 
 	RedgoldManaBreastplate: {
@@ -49,17 +31,33 @@ Items: {
 		Tooltip:
 			'''
 			魔法伤害增加6%
-			移动速度提高8%
+			移动速度提高18%
 			'''
 	}
 
-	TopazRing: {
-		DisplayName: 黄玉扳指
-		Tooltip: 
-			'''
-			远程暴击率增加6%
-			远程射速降低10%
-			'''
+	Flyingserpentfeather: {
+		DisplayName: 腾蛇灵羽
+		Tooltip: “畏怖流转其上”
+	}
+
+	RedgoldBar: {
+		DisplayName: 赤金锭
+		Tooltip: ""
+	}
+
+	Redgoldfurnace: {
+		DisplayName: 赤金冶炼炉
+		Tooltip: ""
+	}
+
+	Origin: {
+		DisplayName: 蕴灵剑
+		Tooltip: ""
+	}
+
+	Canger: {
+		DisplayName: 苍耳
+		Tooltip: 10%不消耗弹药
 	}
 }
 
