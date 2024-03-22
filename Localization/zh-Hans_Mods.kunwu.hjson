@@ -59,6 +59,15 @@ Items: {
 		DisplayName: 苍耳
 		Tooltip: 10%不消耗弹药
 	}
+
+	EmeraldRing: {
+		DisplayName: 翡翠扳指
+		Tooltip:
+			'''
+			远程暴击率增加6%
+			远程射速降低8%
+			'''
+	}
 }
 
 Projectiles.Bluejianqi.DisplayName: Bluejianqi

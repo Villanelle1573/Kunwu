@@ -43,6 +43,11 @@ Items: {
 		DisplayName: Canger
 		Tooltip: ""
 	}
+
+	EmeraldRing: {
+		DisplayName: Emerald Ring
+		Tooltip: ""
+	}
 }
 
 Projectiles.Bluejianqi.DisplayName: Bluejianqi
