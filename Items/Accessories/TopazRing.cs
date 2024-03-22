@@ -9,10 +9,11 @@ namespace kunwu.Items.Accessories
         public override void SetDefaults()
         {
             Item.accessory = true;
+            Item.value = Item.sellPrice(0, 0, 30, 0);
         }
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            player.GetCritChance(DamageClass.Ranged) += 6f;
+            player.GetCritChance(DamageClass.Ranged) += 4f;
             player.GetAttackSpeed(DamageClass.Ranged) -= 0.1f;
         }
         public override void AddRecipes()
