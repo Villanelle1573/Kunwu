@@ -1,10 +1,11 @@
 ﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.Localization;
 
 namespace kunwu.Items.Placeable
 {
-    public class RedgoldBar : ModItem
+    public class PouriumBar : ModItem
     {
         public override void SetStaticDefaults()
         {
@@ -12,7 +13,7 @@ namespace kunwu.Items.Placeable
         }
         public override void SetDefaults()
         {
-            Item.value = 1500;
+            Item.value = 2000;
             Item.width = 32;
             Item.height = 32;
             Item.useStyle = ItemUseStyleID.Swing;
@@ -22,22 +23,15 @@ namespace kunwu.Items.Placeable
             Item.useAnimation = 15;
             Item.consumable = true;
             Item.maxStack = 9999;
-            Item.rare = ItemRarityID.Green;
-            Item.createTile = ModContent.TileType<Tiles.Bar.RedgoldBar>();
+            Item.rare = ItemRarityID.Pink;
+            Item.createTile = ModContent.TileType<Tiles.Bar.PouriumBar>();
             Item.placeStyle = 0;
         }
         public override void AddRecipes()
         {
             CreateRecipe()
-                .AddIngredient(ItemID.Hellstone, 2)
-                .AddIngredient(ItemID.GoldBar)
-                .AddTile(TileID.Furnaces)
-                .Register();
-
-            CreateRecipe()
-                .AddIngredient(ItemID.Hellstone, 2)
-                .AddIngredient(ItemID.PlatinumBar)
-                .AddTile(TileID.Furnaces)
+                .AddIngredient<PouriumOre>(4)
+                .AddTile(TileID.AdamantiteForge)
                 .Register();
         }
     }

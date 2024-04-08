@@ -48,6 +48,16 @@ Items: {
 		DisplayName: Emerald Ring
 		Tooltip: ""
 	}
+
+	PouriumBar: {
+		DisplayName: Pourium Bar
+		Tooltip: ""
+	}
+
+	PouriumOre: {
+		DisplayName: Pourium Ore
+		Tooltip: ""
+	}
 }
 
 Projectiles.Bluejianqi.DisplayName: Bluejianqi

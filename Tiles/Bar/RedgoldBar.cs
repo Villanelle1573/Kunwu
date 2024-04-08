@@ -5,7 +5,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace kunwu.Tiles
+namespace kunwu.Tiles.Bar
 {
     public class RedgoldBar : ModTile
     {

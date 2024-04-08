@@ -68,6 +68,16 @@ Items: {
 			远程射速降低8%
 			'''
 	}
+
+	PouriumBar: {
+		DisplayName: 滂沱锭
+		Tooltip: ""
+	}
+
+	PouriumOre: {
+		DisplayName: 滂沱矿
+		Tooltip: ""
+	}
 }
 
 Projectiles.Bluejianqi.DisplayName: Bluejianqi
