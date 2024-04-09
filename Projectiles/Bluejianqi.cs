@@ -13,6 +13,7 @@ namespace kunwu.Projectiles
         }
         public override void SetDefaults()
         {
+            Main.projFrames[Projectile.type] = 1;
             Projectile.DamageType = DamageClass.Melee;
             Projectile.width = 50;
             Projectile.height = 50;
