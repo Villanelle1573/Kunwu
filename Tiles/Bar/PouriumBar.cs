@@ -23,8 +23,8 @@ namespace kunwu.Tiles.Bar
             Main.tileShine[Type] = 650;
             DustType = DustID.Gold;
             HitSound = SoundID.Dig;
-            MineResist = 2f;
-            MinPick = 65;
+            MineResist = 3f;
+            MinPick = 110;
 
             ItemDrops = ModContent.ItemType<Items.Placeable.PouriumBar>();
 
@@ -35,7 +35,7 @@ namespace kunwu.Tiles.Bar
             TileObjectData.newTile.Height = 1;
             TileObjectData.addTile(Type);
 
-            AddMapEntry(new Color(75, 160, 230), Language.GetText("金属棒"));
+            AddMapEntry(new Color(75, 160, 255), Language.GetText("金属棒"));
         }
 
         public override void NumDust(int i, int j, bool fail, ref int num)
