@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace kunwu.Items.Consumables
+namespace kunwu.Items.Material
 {
     public class Flyingserpentfeather : ModItem
     {
