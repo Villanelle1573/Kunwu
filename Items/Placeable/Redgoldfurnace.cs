@@ -9,7 +9,7 @@ using Terraria.ModLoader;
 
 namespace kunwu.Items.Placeable
 {
-    public class Redgoldfurnace : ModItem
+    public class RedgoldFurnace : ModItem
     {
         public override void SetStaticDefaults()
         {
@@ -25,7 +25,7 @@ namespace kunwu.Items.Placeable
             Item.consumable = true;
             Item.maxStack = 9999;
             Item.rare = ItemRarityID.Green;
-            Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Furniture.CraftingStations.Redgoldfurnace>());
+            Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Furniture.CraftingStations.RedgoldFurnace>());
             Item.placeStyle = 0;
         }
         public override void AddRecipes()

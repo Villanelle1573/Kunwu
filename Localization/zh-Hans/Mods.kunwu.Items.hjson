@@ -79,12 +79,3 @@ Items: {
 		Tooltip: ""
 	}
 }
-
-Projectiles.Bluejianqi.DisplayName: Bluejianqi
-
-Buffs: {
-	Hypothermia: {
-		DisplayName: 失温
-		Description: 你的体温在流失
-	}
-}

@@ -11,6 +11,12 @@
     <None Remove="Items\Armors\RedgoldMana\RedgoldManaBreastplate_Body.png" />
     <None Remove="Items\Armors\RedgoldMana\RedgoldManaHelmet_Head.png" />
     <None Remove="Items\Armors\RedgoldMana\RedgoldManaLeggings_Legs.png" />
+    <None Remove="localization\en-us\Mods.kunwu.Buffs.hjson" />
+    <None Remove="localization\en-us\Mods.kunwu.Projectiles.hjson" />
+    <None Remove="localization\en-us\Mods.kunwu.Tiles.hjson" />
+    <None Remove="localization\zh-hans\Mods.kunwu.Buffs.hjson" />
+    <None Remove="localization\zh-hans\Mods.kunwu.Projectiles.hjson" />
+    <None Remove="localization\zh-hans\Mods.kunwu.Tiles.hjson" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />

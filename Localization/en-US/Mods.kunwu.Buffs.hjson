@@ -1,0 +1,6 @@
+Buffs: {
+	Hypothermia: {
+		DisplayName: Hypothermia
+		Description: Mods.kunwu.Buffs.Hypothermia.Description
+	}
+}

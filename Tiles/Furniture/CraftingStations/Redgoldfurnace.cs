@@ -7,7 +7,7 @@ using Terraria.ObjectData;
 
 namespace kunwu.Tiles.Furniture.CraftingStations
 {
-    public class Redgoldfurnace : ModTile
+    public class RedgoldFurnace : ModTile
     {
         public int ItemDrops { get; private set; }
 
@@ -24,7 +24,7 @@ namespace kunwu.Tiles.Furniture.CraftingStations
             MineResist = 1f;
             MinPick = 65;
 
-            ItemDrops = ModContent.ItemType<Items.Placeable.Redgoldfurnace>();
+            ItemDrops = ModContent.ItemType<Items.Placeable.RedgoldFurnace>();
 
             TileObjectData.newTile.CopyFrom(TileObjectData.Style3x3);
             TileObjectData.newTile.StyleHorizontal = true;

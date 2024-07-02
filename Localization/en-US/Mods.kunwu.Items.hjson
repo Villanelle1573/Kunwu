@@ -59,12 +59,3 @@ Items: {
 		Tooltip: ""
 	}
 }
-
-Projectiles.Bluejianqi.DisplayName: Bluejianqi
-
-Buffs: {
-	Hypothermia: {
-		DisplayName: Hypothermia
-		Description: Mods.kunwu.Buffs.Hypothermia.Description
-	}
-}
