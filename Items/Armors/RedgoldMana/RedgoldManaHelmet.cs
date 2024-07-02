@@ -41,7 +41,7 @@ namespace kunwu.Items.Armors.RedgoldMana
             CreateRecipe()
                 .AddIngredient<RedgoldBar>(8)
                 .AddIngredient(ItemID.Silk, 3)
-                .AddTile<Tiles.Furniture.CraftingStations.Redgoldfurnace>()
+                .AddTile<Tiles.Furniture.CraftingStations.RedgoldFurnace>()
                 .Register();
         }
     }

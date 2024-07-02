@@ -1,61 +1,62 @@
 Items: {
-	TopazRing: {
-		DisplayName: Topaz Ring
-		Tooltip: ""
-	}
+}
 
-	RedgoldManaBreastplate: {
-		DisplayName: Redgold Mana Breastplate
-		Tooltip: ""
-	}
+EmeraldRing: {
+	DisplayName: Emerald Ring
+	Tooltip: ""
+}
 
-	RedgoldManaHelmet: {
-		DisplayName: Redgold Mana Helmet
-		Tooltip: ""
-	}
+TopazRing: {
+	DisplayName: Topaz Ring
+	Tooltip: ""
+}
 
-	RedgoldManaLeggings: {
-		DisplayName: Redgold Mana Leggings
-		Tooltip: ""
-	}
+RedgoldManaBreastplate: {
+	DisplayName: Redgold Mana Breastplate
+	Tooltip: ""
+}
 
-	Flyingserpentfeather: {
-		DisplayName: Flyingserpentfeather
-		Tooltip: ""
-	}
+RedgoldManaHelmet: {
+	DisplayName: Redgold Mana Helmet
+	Tooltip: ""
+}
 
-	RedgoldBar: {
-		DisplayName: Redgold Bar
-		Tooltip: ""
-	}
+RedgoldManaLeggings: {
+	DisplayName: Redgold Mana Leggings
+	Tooltip: ""
+}
 
-	Redgoldfurnace: {
-		DisplayName: Redgoldfurnace
-		Tooltip: ""
-	}
+Flyingserpentfeather: {
+	DisplayName: Flyingserpentfeather
+	Tooltip: ""
+}
 
-	Origin: {
-		DisplayName: Origin
-		Tooltip: ""
-	}
+PouriumBar: {
+	DisplayName: Pourium Bar
+	Tooltip: ""
+}
 
-	Canger: {
-		DisplayName: Canger
-		Tooltip: ""
-	}
+PouriumOre: {
+	DisplayName: Pourium Ore
+	Tooltip: ""
+}
 
-	EmeraldRing: {
-		DisplayName: Emerald Ring
-		Tooltip: ""
-	}
+RedgoldBar: {
+	DisplayName: Redgold Bar
+	Tooltip: ""
+}
 
-	PouriumBar: {
-		DisplayName: Pourium Bar
-		Tooltip: ""
-	}
+RedgoldFurnace: {
+	DisplayName: Redgold Furnace
+	Tooltip: ""
+}
 
-	PouriumOre: {
-		DisplayName: Pourium Ore
-		Tooltip: ""
-	}
+Origin: {
+	DisplayName: Origin
+	Tooltip: ""
+}
+
+Canger: {
+	DisplayName: Canger
+	Tooltip: ""
 }

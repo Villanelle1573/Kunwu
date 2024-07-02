@@ -1,6 +1,5 @@
-// 锭
+// Bars
 RedgoldBar.MapEntry: 赤金锭
 PouriumBar.MapEntry: 滂沱锭
-
-// 制作站
+// CraftingStations
 RedgoldFurnace.MapEntry: 赤金冶炼炉

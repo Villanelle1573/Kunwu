@@ -1,81 +1,82 @@
 Items: {
-	TopazRing: {
-		DisplayName: 黄玉扳指
-		Tooltip:
-			'''
-			远程暴击率增加4%
-			远程射速降低10%
-			'''
-	}
+}
 
-	RedgoldManaBreastplate: {
-		DisplayName: 熔金法衣
-		Tooltip:
-			'''
-			魔法暴击率增加4%
-			最大魔力值增加80
-			'''
-	}
+EmeraldRing: {
+	DisplayName: 翡翠扳指
+	Tooltip:
+		'''
+		远程暴击率增加6%
+		远程射速降低8%
+		'''
+}
 
-	RedgoldManaHelmet: {
-		DisplayName: 熔金法帽
-		Tooltip:
-			'''
-			魔法伤害增加6%
-			魔法暴击率增加6%
-			'''
-	}
+TopazRing: {
+	DisplayName: 黄玉扳指
+	Tooltip:
+		'''
+		远程暴击率增加4%
+		远程射速降低10%
+		'''
+}
 
-	RedgoldManaLeggings: {
-		DisplayName: 熔金法靴
-		Tooltip:
-			'''
-			魔法伤害增加6%
-			移动速度提高18%
-			'''
-	}
+RedgoldManaBreastplate: {
+	DisplayName: 熔金法衣
+	Tooltip:
+		'''
+		魔法暴击率增加4%
+		最大魔力值增加80
+		'''
+}
 
-	Flyingserpentfeather: {
-		DisplayName: 腾蛇灵羽
-		Tooltip: “畏怖流转其上”
-	}
+RedgoldManaHelmet: {
+	DisplayName: 熔金法帽
+	Tooltip:
+		'''
+		魔法伤害增加6%
+		魔法暴击率增加6%
+		'''
+}
 
-	RedgoldBar: {
-		DisplayName: 赤金锭
-		Tooltip: ""
-	}
+RedgoldManaLeggings: {
+	DisplayName: 熔金法靴
+	Tooltip:
+		'''
+		魔法伤害增加6%
+		移动速度提高18%
+		'''
+}
 
-	Redgoldfurnace: {
-		DisplayName: 赤金冶炼炉
-		Tooltip: ""
-	}
+Flyingserpentfeather: {
+	DisplayName: 腾蛇灵羽
+	Tooltip: “畏怖流转其上”
+}
 
-	Origin: {
-		DisplayName: 蕴灵剑
-		Tooltip: ""
-	}
+PouriumBar: {
+	DisplayName: 滂沱锭
+	Tooltip: ""
+}
 
-	Canger: {
-		DisplayName: 苍耳
-		Tooltip: 10%不消耗弹药
-	}
+PouriumOre: {
+	DisplayName: 滂沱矿
+	Tooltip: ""
+}
 
-	EmeraldRing: {
-		DisplayName: 翡翠扳指
-		Tooltip:
-			'''
-			远程暴击率增加6%
-			远程射速降低8%
-			'''
-	}
+RedgoldBar: {
+	DisplayName: 赤金锭
+	Tooltip: ""
+}
 
-	PouriumBar: {
-		DisplayName: 滂沱锭
-		Tooltip: ""
-	}
+RedgoldFurnace: {
+	DisplayName: 赤金冶炼炉
+	Tooltip: ""
+}
 
-	PouriumOre: {
-		DisplayName: 滂沱矿
-		Tooltip: ""
-	}
+Origin: {
+	DisplayName: 蕴灵剑
+	Tooltip: ""
+}
+
+Canger: {
+	DisplayName: 苍耳
+	Tooltip: 10%不消耗弹药
 }
