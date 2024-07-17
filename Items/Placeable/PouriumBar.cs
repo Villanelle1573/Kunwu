@@ -1,7 +1,6 @@
 ﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.Localization;
 
 namespace kunwu.Items.Placeable
 {
@@ -24,7 +23,7 @@ namespace kunwu.Items.Placeable
             Item.consumable = true;
             Item.maxStack = 9999;
             Item.rare = ItemRarityID.Pink;
-            Item.createTile = ModContent.TileType<Tiles.Bar.PouriumBar>();
+            Item.createTile = ModContent.TileType<Tiles.Bar.PouriumBarTile>();
             Item.placeStyle = 0;
         }
         public override void AddRecipes()

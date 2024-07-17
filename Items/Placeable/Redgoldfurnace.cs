@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria.ID;
+﻿using Terraria.ID;
 using Terraria;
 using Terraria.ModLoader;
 
@@ -25,7 +20,7 @@ namespace kunwu.Items.Placeable
             Item.consumable = true;
             Item.maxStack = 9999;
             Item.rare = ItemRarityID.Green;
-            Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Furniture.CraftingStations.RedgoldFurnace>());
+            Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Furniture.CraftingStations.RedgoldFurnaceTile>());
             Item.placeStyle = 0;
         }
         public override void AddRecipes()

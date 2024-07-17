@@ -23,7 +23,7 @@ namespace kunwu.Items.Placeable
             Item.consumable = true;
             Item.maxStack = 9999;
             Item.rare = ItemRarityID.Green;
-            Item.createTile = ModContent.TileType<Tiles.Bar.RedgoldBar>();
+            Item.createTile = ModContent.TileType<Tiles.Bar.RedgoldBarTile>();
             Item.placeStyle = 0;
         }
         public override void AddRecipes()

@@ -7,7 +7,7 @@ using Terraria.ObjectData;
 
 namespace kunwu.Tiles.Bar
 {
-    public class PouriumBar : ModTile
+    public class PouriumBarTile : ModTile
     {
         public int ItemDrops { get; private set; }
 
