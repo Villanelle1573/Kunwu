@@ -12,7 +12,7 @@ namespace kunwu.Items.Placeable
         }
         public override void SetDefaults()
         {
-            Item.value = 5000;
+            Item.value = Item.buyPrice(0, 0, 50, 0);
             Item.width = 32;
             Item.height = 32;
             Item.useTime = 15;

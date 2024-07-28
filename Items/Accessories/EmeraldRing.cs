@@ -9,7 +9,7 @@ namespace kunwu.Items.Accessories
         public override void SetDefaults()
         {
             Item.accessory = true;
-            Item.value = Item.sellPrice(0, 0, 60, 0);
+            Item.value = Item.buyPrice(0, 0, 60, 0);
         }
         public override void UpdateAccessory(Player player, bool hideVisual)
         {

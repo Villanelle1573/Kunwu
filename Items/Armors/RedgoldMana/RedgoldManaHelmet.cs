@@ -12,7 +12,7 @@ namespace kunwu.Items.Armors.RedgoldMana
         {
             Item.width = 18;
             Item.height = 18;
-            Item.value = Item.sellPrice(gold: 1);
+            Item.value = Item.buyPrice(0, 1, 0, 0);
             Item.rare = ItemRarityID.Orange;
             Item.defense = 6;
         }

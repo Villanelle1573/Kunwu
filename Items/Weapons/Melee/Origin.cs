@@ -22,7 +22,6 @@ namespace kunwu.Items.Weapons.Melee
 			Item.useStyle = ItemUseStyleID.Swing;
 			Item.useTurn = true;
 			Item.knockBack = 6;
-			Item.value = 10000;
 			Item.rare = ItemRarityID.Purple;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = true;

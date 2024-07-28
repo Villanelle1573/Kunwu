@@ -46,11 +46,6 @@ RedgoldManaLeggings: {
 		'''
 }
 
-Flyingserpentfeather: {
-	DisplayName: 腾蛇灵羽
-	Tooltip: “畏怖流转其上”
-}
-
 PouriumBar: {
 	DisplayName: 滂沱锭
 	Tooltip: ""
@@ -79,4 +74,14 @@ Origin: {
 Canger: {
 	DisplayName: 苍耳
 	Tooltip: 10%不消耗弹药
+}
+
+DeposandCloth: {
+	DisplayName: 沉砂布匹
+	Tooltip: ""
+}
+
+FlyingserpentFeather: {
+	DisplayName: 腾蛇灵羽
+	Tooltip: “畏怖流转其上”
 }

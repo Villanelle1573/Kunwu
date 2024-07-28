@@ -26,11 +26,6 @@ RedgoldManaLeggings: {
 	Tooltip: ""
 }
 
-Flyingserpentfeather: {
-	DisplayName: Flyingserpentfeather
-	Tooltip: ""
-}
-
 PouriumBar: {
 	DisplayName: Pourium Bar
 	Tooltip: ""
@@ -58,5 +53,15 @@ Origin: {
 
 Canger: {
 	DisplayName: Canger
+	Tooltip: ""
+}
+
+DeposandCloth: {
+	DisplayName: Deposand Cloth
+	Tooltip: ""
+}
+
+FlyingserpentFeather: {
+	DisplayName: Flyingserpent Feather
 	Tooltip: ""
 }
