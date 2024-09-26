@@ -90,3 +90,8 @@ DanFurnace: {
 	DisplayName: 铜丹炉
 	Tooltip: ""
 }
+
+RevitalizingDan: {
+	DisplayName: 回春丹
+	Tooltip: 每秒回复20点生命值
+}

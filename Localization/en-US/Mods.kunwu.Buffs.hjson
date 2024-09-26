@@ -5,3 +5,8 @@ Hypothermia: {
 	DisplayName: Hypothermia
 	Description: Mods.kunwu.Buffs.Hypothermia.Description
 }
+
+RevitalizingBuff: {
+	DisplayName: Revitalizing
+	Description: Mods.kunwu.Buffs.RevitalizingBuff.Description
+}

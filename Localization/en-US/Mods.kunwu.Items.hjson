@@ -70,3 +70,8 @@ DanFurnace: {
 	DisplayName: Copper Dan Furnace
 	Tooltip: ""
 }
+
+RevitalizingDan: {
+	DisplayName: Revitalizing Dan
+	Tooltip: ""
+}

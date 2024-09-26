@@ -5,7 +5,7 @@ using Terraria.GameContent.ItemDropRules;
 
 namespace kunwu.NPCs
 {
-    public class NewDrop : GlobalNPC
+    public class NewDrop : GlobalNPC // 给原版生物增加Mod物品掉落
     {
         public override void ModifyNPCLoot(NPC npc, NPCLoot npcLoot)
         {

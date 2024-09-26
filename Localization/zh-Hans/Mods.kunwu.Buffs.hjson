@@ -5,3 +5,8 @@ Hypothermia: {
 	DisplayName: 失温
 	Description: 你的体温在流失
 }
+
+RevitalizingBuff: {
+	DisplayName: 回春
+	Description: Mods.kunwu.Buffs.RevitalizingBuff.Description
+}
