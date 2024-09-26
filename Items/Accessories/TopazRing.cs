@@ -1,6 +1,7 @@
 ﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using kunwu.BaseExtension;
 
 namespace kunwu.Items.Accessories
 {
@@ -9,12 +10,11 @@ namespace kunwu.Items.Accessories
         public override void SetDefaults()
         {
             Item.accessory = true;
-            Item.value = Item.buyPrice(0, 0, 30, 0);
+            Item.value = Item.buyPrice(0, 0, 20, 0);
         }
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            player.GetCritChance(DamageClass.Ranged) += 4f;
-            player.GetAttackSpeed(DamageClass.Ranged) -= 0.1f;
+            player.KunwuPlayerBuff().topazRing = true;
         }
         public override void AddRecipes()
         {
