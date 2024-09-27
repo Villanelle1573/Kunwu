@@ -15,8 +15,8 @@ namespace kunwu.ModPlayers
         {
             if (player.KunwuPlayerBuff().topazRing == true && item.useAmmo == AmmoID.Arrow)
             {
-                player.GetCritChance(DamageClass.Ranged) += 4f;
                 player.GetAttackSpeed(DamageClass.Ranged) -= 0.1f;
+                velocity *= 1.2f;
             }
         }
     }

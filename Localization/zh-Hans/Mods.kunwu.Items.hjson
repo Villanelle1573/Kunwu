@@ -1,21 +1,12 @@
 Items: {
 }
 
-EmeraldRing: {
-	DisplayName: 翡翠扳指
-	Tooltip:
-		'''
-		远程暴击率增加6%
-		远程射速降低8%
-		'''
-}
-
 TopazRing: {
 	DisplayName: 黄玉扳指
 	Tooltip:
 		'''
-		远程暴击率增加4%
-		远程射速降低10%
+		弓箭射速降低10%
+		箭矢速度增加20%
 		'''
 }
 

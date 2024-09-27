@@ -15,7 +15,7 @@ namespace kunwu.Effects.Buffs
         public override void Update(Player player, ref int buffIndex)
         {
             BuffPlayer modPlayer = player.GetModPlayer<BuffPlayer>();
-            modPlayer.revitalizingBuff = true; // 激活回血 buff
+            modPlayer.revitalizingDan = true; // 激活回血 buff
         }   
     }
 }
