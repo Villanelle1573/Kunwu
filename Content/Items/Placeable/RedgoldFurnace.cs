@@ -2,6 +2,7 @@
 using Terraria;
 using Terraria.ModLoader;
 using kunwu.Core;
+using kunwu.Content.Tiles.CraftingStations;
 
 namespace kunwu.Content.Items.Placeable
 {
@@ -23,7 +24,7 @@ namespace kunwu.Content.Items.Placeable
             Item.consumable = true;
             Item.maxStack = 9999;
             Item.rare = ItemRarityID.Green;
-            Item.DefaultToPlaceableTile(ModContent.TileType<kunwu.Content.Tiles.CraftingStations.RedgoldFurnaceTile>());
+            Item.DefaultToPlaceableTile(ModContent.TileType<RedgoldFurnaceTile>());
             Item.placeStyle = 0;
         }
         public override void AddRecipes()

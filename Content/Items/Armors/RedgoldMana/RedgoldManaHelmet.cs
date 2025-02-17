@@ -1,4 +1,5 @@
 ﻿using kunwu.Content.Items.Placeable;
+using kunwu.Content.Tiles.CraftingStations;
 using kunwu.Core;
 using Terraria;
 using Terraria.ID;
@@ -44,7 +45,7 @@ namespace kunwu.Content.Items.Armors.RedgoldMana
             CreateRecipe()
                 .AddIngredient<RedgoldBar>(8)
                 .AddIngredient(ItemID.Silk, 3)
-                .AddTile<kunwu.Content.Tiles.CraftingStations.RedgoldFurnaceTile>()
+                .AddTile<RedgoldFurnaceTile>()
                 .Register();
         }
     }
@@ -72,7 +73,7 @@ namespace kunwu.Content.Items.Armors.RedgoldMana
             CreateRecipe()
                 .AddIngredient<RedgoldBar>(20)
                 .AddIngredient(ItemID.Silk, 8)
-                .AddTile<kunwu.Content.Tiles.CraftingStations.RedgoldFurnaceTile>()
+                .AddTile<RedgoldFurnaceTile>()
                 .Register();
         }
     }
@@ -100,7 +101,7 @@ namespace kunwu.Content.Items.Armors.RedgoldMana
             CreateRecipe()
                 .AddIngredient<RedgoldBar>(12)
                 .AddIngredient(ItemID.Silk, 5)
-                .AddTile<kunwu.Content.Tiles.CraftingStations.RedgoldFurnaceTile>()
+                .AddTile<RedgoldFurnaceTile>()
                 .Register();
         }
     }

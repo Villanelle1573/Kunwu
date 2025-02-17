@@ -1,4 +1,5 @@
 ﻿using kunwu.Core;
+using kunwu.Content.Items.Placeable;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
@@ -10,7 +11,7 @@ namespace kunwu.Content.Tiles.CraftingStations
 {
     public class RedgoldFurnaceTile : ModTile
     {
-        public override string Texture => AssetsDirectory.Craftingstation + Name;
+        public override string Texture => AssetsDirectory.Craftingstations + Name;
 
         public int ItemDrops { get; private set; }
 
@@ -27,7 +28,7 @@ namespace kunwu.Content.Tiles.CraftingStations
             MineResist = 1f;
             MinPick = 65;
 
-            ItemDrops = ModContent.ItemType<kunwu.Content.Items.Placeable.RedgoldFurnace>();
+            ItemDrops = ModContent.ItemType<RedgoldFurnace>();
 
             TileObjectData.newTile.CopyFrom(TileObjectData.Style3x3);
             TileObjectData.newTile.StyleHorizontal = true;

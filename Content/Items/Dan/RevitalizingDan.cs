@@ -1,4 +1,5 @@
 ﻿using kunwu.Core;
+using kunwu.Content.Effects.Buffs;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -22,7 +23,7 @@ namespace kunwu.Content.Items.Dan
             Item.useTime = 10;
             Item.consumable = true;
             Item.UseSound = SoundID.Item2;
-            Item.buffType = ModContent.BuffType<kunwu.Content.Effects.Buffs.RevitalizingBuff>(); // 回复血量Buff
+            Item.buffType = ModContent.BuffType<RevitalizingBuff>(); // 回复血量Buff
             Item.buffTime = 300; // 持续300 / 60 = 5秒
         }
     }

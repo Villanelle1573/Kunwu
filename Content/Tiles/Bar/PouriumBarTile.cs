@@ -1,4 +1,5 @@
 ﻿using kunwu.Core;
+using kunwu.Content.Items.Placeable;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
@@ -29,7 +30,7 @@ namespace kunwu.Content.Tiles.Bar
             MineResist = 3f;
             MinPick = 110;
 
-            ItemDrops = ModContent.ItemType<kunwu.Content.Items.Placeable.PouriumBar>();
+            ItemDrops = ModContent.ItemType<PouriumBar>();
 
             TileObjectData.newTile.CopyFrom(TileObjectData.Style1x1);
             TileObjectData.newTile.StyleHorizontal = true;

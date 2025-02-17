@@ -5,12 +5,13 @@ using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
+using kunwu.Content.Items.Placeable;
 
 namespace kunwu.Content.Tiles.CraftingStations
 {
     public class DanFurnaceTile : ModTile
     {
-        public override string Texture => AssetsDirectory.Craftingstation + Name;
+        public override string Texture => AssetsDirectory.Craftingstations + Name;
 
         public int ItemDrops { get; private set; }
 
@@ -27,7 +28,7 @@ namespace kunwu.Content.Tiles.CraftingStations
             MineResist = 1f;
             MinPick = 35;
 
-            ItemDrops = ModContent.ItemType<kunwu.Content.Items.Placeable.DanFurnace>();
+            ItemDrops = ModContent.ItemType<DanFurnace>();
 
             TileObjectData.newTile.CopyFrom(TileObjectData.Style2x2);
             TileObjectData.newTile.StyleHorizontal = true;

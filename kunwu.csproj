@@ -22,7 +22,8 @@
     <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\Items\Placable\" />
+    <Folder Include="Assets\Tiles\Furniture\" />
+    <Folder Include="Content\Tiles\Furniture\" />
     <Folder Include="NPCs\ModNPCs\" />
   </ItemGroup>
 </Project>

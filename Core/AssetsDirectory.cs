@@ -71,7 +71,7 @@
         public const string Bar = Tiles + "Bar/";
 
         // 工作站
-        public const string Craftingstation = Tiles + "CraftingStation/";
+        public const string Craftingstations = Tiles + "CraftingStations/";
 
         #endregion
     }
