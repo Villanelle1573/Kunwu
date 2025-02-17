@@ -11,7 +11,7 @@ namespace kunwu.NPCs
         {
             if (npc.type == NPCID.FlyingSnake)
             {
-                npcLoot.Add(new CommonDrop(ModContent.ItemType<Items.Material.FlyingserpentFeather>(), chanceDenominator: 8, 1, 3, chanceNumerator: 3));
+                npcLoot.Add(new CommonDrop(ModContent.ItemType<kunwu.Content.Items.Material.FlyingserpentFeather>(), chanceDenominator: 8, 1, 3, chanceNumerator: 3));
                 // 3 / 8 = 37.5%的概率掉落1到3个
             }
         }
