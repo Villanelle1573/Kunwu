@@ -8,7 +8,7 @@ namespace kunwu.Content.Items.Placeable
 {
     public class DanFurnace : ModItem
     {
-        public override string Texture => AssetsDirectory.Placable + Name;
+        public override string Texture => AssetsDirectory.Placeable + Name;
 
         public override void SetStaticDefaults()
         {

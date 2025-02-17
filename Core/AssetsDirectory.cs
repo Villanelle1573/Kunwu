@@ -42,7 +42,7 @@
 
         #region 可放置物部分
 
-        public const string Placable = Items + "Placable/";
+        public const string Placeable = Items + "Placeable/";
 
         #endregion
 
